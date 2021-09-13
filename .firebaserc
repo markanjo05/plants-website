@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "plantswebsite-38578"
+  },
+  "targets": {
+    "plantswebsite-38578": {
+      "hosting": {
+        "prod": [
+          "markgalisa-greeno"
+        ]
+      }
+    }
+  }
+}

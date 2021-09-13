@@ -95,14 +95,39 @@ const Home = () => {
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
                 </p>
-                <div className="mt-4">
+                <Row className="mt-5 d-md-none">
+                  <Col className="mb-3">
+                    <Button
+                      color="primary"
+                      className="me-3 blackButton p-2 rounded-0 text-white w-100"
+                      href="#about"
+                    >
+                      About
+                    </Button>
+                  </Col>
+                  <Col className="mb-3">
+                    <Button
+                      color="primary"
+                      className="blackButton p-2 rounded-0 text-white w-100"
+                      href="#contactUs"
+                    >
+                      Contact Us
+                    </Button>
+                  </Col>
+                </Row>
+                <div className="mt-4 d-none d-md-block">
                   <Button
                     color="primary"
-                    className="me-3 blackButton p-2 rounded-0"
+                    className="me-3 blackButton p-2 rounded-0 text-white"
+                    href="#about"
                   >
                     About
                   </Button>
-                  <Button color="primary" className="blackButton p-2 rounded-0">
+                  <Button
+                    color="primary"
+                    className="blackButton p-2 rounded-0 text-white"
+                    href="#contactUs"
+                  >
                     Contact Us
                   </Button>
                 </div>
