@@ -1,0 +1,16 @@
+$font-primary: "Poppins", sans-serif;
+$font-secondary: "Quicksand", sans-serif;
+
+$color-primary: #308409;
+
+.fc-primary {
+  color: $color-primary !important;
+}
+
+.bg-primary-override {
+  background-color: $color-primary !important;
+}
+
+.font-primary-override {
+  font-family: $font-primary !important;
+}

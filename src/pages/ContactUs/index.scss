@@ -1,0 +1,30 @@
+@import "../../styles/main";
+
+.contactUsWrapper {
+  .messageInput {
+    height: 200px;
+    resize: none;
+    font-size: 18px;
+  }
+
+  .footer {
+    background-color: #dedede;
+    color: white;
+  }
+
+  .formLabel {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .basicInput {
+    padding: 12px !important;
+    font-size: 18px;
+  }
+
+  .formButton {
+    // background-color: #000;
+    min-width: 150px;
+    font-size: 20px;
+  }
+}

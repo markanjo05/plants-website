@@ -1,0 +1,48 @@
+@import "./mixins";
+@import "./variables";
+@import "./fonts";
+
+html,
+body {
+  scroll-behavior: smooth;
+  background: #f6f6f6 !important;
+  font-family: $font-secondary !important;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+a {
+  color: black !important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.blackButton {
+  background-color: #000;
+  border: none;
+  min-width: 150px;
+  font-size: 20px;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+
+  &:focus {
+    outline: 0;
+    background-color: $color-primary;
+  }
+}
+
+.pageTitle {
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.pageSubTitle {
+  font-size: 17px;
+}
